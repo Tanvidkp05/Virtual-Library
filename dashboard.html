@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://www.logolynx.com/images/logolynx/aa/aa3993182ad88a047d21fbcc09b44d04.png" alt="Virtual Library
+            ">
+           <div class="head">Virtual Library</div>
+        </div>
+        <ul>
+            <li class="item"><a href="lms.html">Home</a></li>
+            <li class="item"><a href="#" class="active">Dashboard</a></li>
+            <li class="item"><a href="books.html">Books</a></li>
+            <li class="item"><a href="about.html">About-Us</a></li>
+        </ul>
+        <div class="right">
+            <button class="btn"><a href="login.html">Login</a></button>
+            <button class="btn"><a href="">Sign-Up</a></button>
+        </div>
+    </nav>
+    <div class="abc">
+    <div class="c1" id="b-1"><b class="font">ISSUE</b><br>*(You can only issue 5 books at a time)<br><br>
+      <div class="content" id="p1">Books Issued: <spam id="counter">0</spam><br><br>
+
+      </div>
+    </div>
+    <div class="c1" id="b-2"><b class="font">RETURN</b><br>
+      *(Return within 15 days)<br><br>
+      <div class="content">Books not returned yet: <spam id="counter1">0</spam></div>
+    </div>
+    <div class="c1" id="b-3"><b class="font">PAY FINE</b><br>*(If returned late you must pay fine)<br><br>
+    You can pay fine offline<br>
+    OR Online Payment
+    </div>
+  </div> 
+      <table class="table">
+        <tr>
+          <th>Book ID</th>
+          <th>Book Name</th>
+          <th>Author</th>
+          <th>Books Left</th>
+          <th>Stack No.</th>
+          <th>Issue</th>
+          <th>Return</th>
+        </tr>
+        <tr class="odd">
+          <td>2SF035</td>
+          <td>Harrypotter and the order of phoenix</td>
+          <td>JK Rowling</td>
+          <td class="numBooks">3</td>
+          <td>7</td>
+          <td>
+            <button class="tbtn b1" id="bt1">Issue</button>
+          </td>
+          <td>
+            <button class="tbtn2 b1" id="btt1">Return</button>
+          </td>
+        </tr>
+        <tr class="even">
+            <td>2BA053</td>
+            <td>The Alchemist</td>
+            <td>Paulo Coelho</td>
+            <td class="numBooks">8</td>
+            <td>1</td>
+            <td>
+              <button class="tbtn b2" id="bt2">Issue</button>
+            </td>
+            <td>
+              <button class="tbtn2 b2" id="btt2">Return</button>
+            </td>
+          </tr>
+          <tr class="odd">
+            <td>2DC071</td>
+            <td>The 19th wife</td>
+            <td>JB Rowling</td>
+            <td class="numBooks">5</td>
+            <td>6</td>
+            <td>
+              <button class="tbtn b3" id="bt3">Issue</button>
+            </td>
+            <td>
+              <button class="tbtn2 b3" id="btt3">Return</button>
+            </td>
+          </tr>
+          <tr class="even">
+            <td>2CE98</td>
+            <td>Galaxy</td>
+            <td>khp D'souza</td>
+            <td class="numBooks">2</td>
+            <td>1</td>
+            <td>
+              <button class="tbtn b4" id="bt4">Issue</button>
+            </td>
+            <td>
+              <button class="tbtn2 b4" id="btt4">Return</button>
+            </td>
+          </tr>
+          <tr class="odd">
+            <td>2IT84</td>
+            <td>Conjouring</td>
+            <td>Dhruvi Soni</td>
+            <td class="numBooks">0</td>
+            <td>3</td>
+            <td>
+              <button class="tbtn b5" id="bt5">Issue</button>
+            </td>
+            <td>
+              <button class="tbtn2 b5" id="btt5">Return</button>
+            </td>
+          </tr>
+          <tr class="even">
+              <td>2SC117</td>
+              <td>The Mocking Bird</td>
+              <td>Eminem</td>
+              <td>3</td>
+              <td>1</td>
+              <td>
+                <button class="tbtn">Issue</button>
+              </td>
+              <td>
+                <button class="tbtn2">Return</button>
+              </td>
+            </tr>
+            <tr class="odd">
+              <td>2OS065</td>
+              <td>WRECK</td>
+              <td>SJ SHAH</td>
+              <td>50</td>
+              <td>26</td>
+              <td>
+                <button class="tbtn">Issue</button>
+              </td>
+              <td>
+                <button class="tbtn2">Return</button>
+              </td>
+            </tr>
+            <tr class="even">
+              <td>2CE029</td>
+              <td>ALONE</td>
+              <td>BP James</td>
+              <td>3</td>
+              <td>9</td>
+              <td>
+                <button class="tbtn">Issue</button>
+              </td>
+              <td>
+                <button class="tbtn2">Return</button>
+              </td>
+            </tr>
+            <tr class="odd">
+                <td>2IT66</td>
+                <td>BARBIE</td>
+                <td>DG Snake</td>
+                <td>5</td>
+                <td>4</td>
+                <td>
+                  <button class="tbtn">Issue</button>
+                </td>
+                <td>
+                  <button class="tbtn2">Return</button>
+                </td>
+              </tr>
+              <tr class="even">
+                  <td>2KJ32</td>
+                  <td>Catch-22</td>
+                  <td>RV Patel</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>
+                    <button class="tbtn">Issue</button>
+                  </td>
+                  <td>
+                    <button class="tbtn2">Return</button>
+                  </td>
+                </tr>
+                <tr class="odd">
+                  <td>2CB32</td>
+                  <td>Fault in our stars</td>
+                  <td>VR Kaka</td>
+                  <td>3</td>
+                  <td>23</td>
+                  <td>
+                    <button class="tbtn">Issue</button>
+                  </td>
+                  <td>
+                    <button class="tbtn2">Return</button>
+                  </td>
+                </tr>
+                <tr class="even">
+                  <td>2BN33</td>
+                  <td>KITE RUNNER</td>
+                  <td>Tp Williamson's</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>
+                    <button class="tbtn">Issue</button>
+                  </td>
+                  <td>
+                    <button class="tbtn2">Return</button>
+                  </td>
+                </tr>
+                <tr class="odd">
+                    <td>2CE23</td>
+                    <td>Tom Clancy</td>
+                    <td>Ip Ben</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>
+                      <button class="tbtn">Issue</button>
+                    </td>
+                    <td>
+                      <button class="tbtn2">Return</button>
+                    </td>
+                  </tr>
+                  <tr class="even">
+                      <td>2DC12</td>
+                      <td>Just Mercy</td>
+                      <td>NP Won</td>
+                      <td>9</td>
+                      <td>14</td>
+                      <td>
+                        <button class="tbtn">Issue</button>
+                      </td>
+                      <td>
+                        <button class="tbtn2">Return</button>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td>3RE09</td>
+                      <td>African Buva</td>
+                      <td>Dhruvi Stifen</td>
+                      <td>6</td>
+                      <td>4</td>
+                      <td>
+                        <button class="tbtn">Issue</button>
+                      </td>
+                      <td>
+                        <button class="tbtn2">Return</button>
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td>5SV67</td>
+                      <td>Stephen King</td>
+                      <td>Unji L</td>
+                      <td>50</td>
+                      <td>100</td>
+                      <td>
+                        <button class="tbtn">Issue</button>
+                      </td>
+                      <td>
+                        <button class="tbtn2">Return</button>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                        <td>2SE87</td>
+                        <td>Dairy of Anne Frank </td>
+                        <td>Anne Frank</td>
+                        <td>4</td>
+                        <td>15</td>
+                        <td>
+                          <button class="tbtn">Issue</button>
+                        </td>
+                        <td>
+                          <button class="tbtn2">Return</button>
+                        </td>
+                      </tr>
+                      <tr class="even">
+                          <td>8HE03</td>
+                          <td>3 days to live</td>
+                          <td>Hellen kellar</td>
+                          <td>1</td>
+                          <td>8</td>
+                          <td>
+                            <button class="tbtn">Issue</button>
+                          </td>
+                          <td>
+                            <button class="tbtn2">Return</button>
+                          </td>
+                        </tr>
+                        <tr class="odd">
+                          <td>0JS34</td>
+                          <td>Azadi ki ladai</td>
+                          <td>Ghandhi bapu</td>
+                          <td>10</td>
+                          <td>36</td>
+                          <td>
+                            <button class="tbtn">Issue</button>
+                          </td>
+                          <td>
+                            <button class="tbtn2">Return</button>
+                          </td>
+                        </tr>
+                        <tr class="even">
+                          <td>3FR56</td>
+                          <td>Street Food</td>
+                          <td>Shangai</td>
+                          <td>0</td>
+                          <td>1</td>
+                          <td>
+                            <button class="tbtn">Issue</button>
+                          </td>
+                          <td>
+                            <button class="tbtn2">Return</button>
+                          </td>
+                        </tr>
+      </table>
+      <script src="dashboard.js" charset="UTF-8"></script>
+      <!-- <script src="db.js" charset="UTF-8"></script> -->
+</body>
+</html>
